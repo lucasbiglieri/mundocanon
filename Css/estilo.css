@@ -131,7 +131,7 @@ nav ul li a {
 }
 
 #noticias-container{
-    background-color: black;
+    background-color: #000000;
     background-size: cover;
     background-position: center;
     display: flex;
