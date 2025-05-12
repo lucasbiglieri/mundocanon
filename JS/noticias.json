@@ -1,0 +1,29 @@
+{
+    "noticias": [
+        {
+            "titulo": "Canon ofrece una beca específica para cortometrajes documentales",
+            "contenido": "La beca de vídeo de Canon para cortometrajes documentales reconoce el mejor talento en ciernes en la grabación de documentales de todo el mundo.",
+            "fecha": "27 Marzo 2025",
+            "enlace": "https://www.canon.es/pro/news/video-grant-short-film-documentary/"
+        },
+        {
+            "titulo": "Presentamos las revolucionarias cámaras híbridas de Canon",
+            "contenido": "Descubre la EOS R1 y la EOS R5 Mark II: un análisis de las cámaras mirrorless Full Frame definitivas para fotografía y vídeo.",
+            "fecha": "17 Julio 2024",
+            "enlace": "https://www.canon.es/pro/news/meet-eos-r1-and-eos-r5-mark-ii/"
+        },
+        {
+            "titulo": "Flujos de trabajo preparados para el futuro con las cámaras PTZ de Canon.",
+            "contenido": "Descubre cómo la cámaras PTZ, los controladores de hardware y las apps de Canon pueden transformar tus configuraciones multicámara remotas.",
+            "fecha": "12 Septiembre 2023",
+            "enlace": "https://www.canon.es/pro/news/new-generation-ptz-cameras/"
+        },
+        {
+            "titulo": "Nuevas actualizaciones para la EOS R3, la EOS R5, la EOS R7 y la EOS R10",
+            "contenido": "Las actualizaciones de firmware mejoran el rendimiento de las cámaras mirrorless profesionales de Canon y añaden nuevas características, como la resolución de 400 MP en la EOS R5, entre otras.",
+            "fecha": "30 Marzo 2023",
+            "enlace": "https://www.canon.es/pro/news/new-firmware-features-explained/"
+        }
+        
+    ]
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Obtén tu presupuesto para cámaras Canon en MundoCanon. Personaliza tu producto y presupuesto según tus necesidades.">
+    <meta name="keywords" content="presupuesto, Canon, cámaras, MundoCanon, presupuesto cámara, plazo de entrega, extras">
+    <title>MundoCanon</title>
+    <link rel="stylesheet" href="/Css/presupuesto.css">
+    <link rel="stylesheet" href="/Css/estilo.css">
+    <link rel="icon" href="/path/to/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="imagen-logo" src="/img/MundoCanon.png" alt="logo de una camara de foto" width="500" height="500">
+            <h1>MundoCanon</h1>
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/views/galeria.html">Galeria</a></li>
+                <li><a href="/views/presupuesto.html" class="presupuesto">Presupuesto</a></li>
+                <li><a href="/views/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="form-container">
+        <form id="formulario">
+            <!-- PARTE 1 -->
+            <div id="parte1" class="bloque">
+                <h2>Datos personales</h2>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" maxlength="15" required>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" maxlength="40" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="text" id="telefono" maxlength="9" required>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" required>
+            </div>
+
+            <!-- PARTE 2 -->
+            <div id="parte2" class="bloque">
+                <h3>Opciones del servicio</h3>
+
+                <label for="producto">Producto:</label>
+                <select id="producto" required>
+                    <option value="">Seleccionar</option>
+                    <option value="producto1">Canon EOS R7</option>
+                    <option value="producto2">Canon EOS R6 Mark II</option>
+                    <option value="producto3">Canon EOS R10</option>
+                    <option value="producto4">Canon EOS R5s</option>
+                </select>
+
+                <label for="plazo">Plazo de entrega (días):</label>
+                <input type="number" id="plazo" min="0" max="100" step="1" value="0" placeholder="Introduce plazo en días" required>
+
+                <label>Extras:</label>
+                <div class="checkbox">
+                    <label for="garantia">Garantía extendida (€100)</label>
+                    <input type="checkbox" id="garantia" name="extras" value="garantia">
+
+                    <label for="soporte">Soporte técnico (€80)</label>
+                    <input type="checkbox" id="soporte" name="extras" value="soporte">
+
+                    <label for="instalacion">Instalación (€60)</label>
+                    <input type="checkbox" id="instalacion" name="extras" value="instalacion">
+
+                    <label for="asistencia">Asistencia 24/7 (€90)</label>
+                    <input type="checkbox" id="asistencia" name="extras" value="asistencia">
+                </div>
+
+                <label for="presupuesto">Presupuesto estimado:</label>
+                <input type="text" id="presupuesto" placeholder="€" readonly>
+
+                <label for="condiciones">Condiciones de envío:</label>
+                <textarea id="condiciones" rows="3" placeholder="Especifica condiciones..." required></textarea>
+
+                <div class="condiciones">
+                    <label for="aceptar-condiciones">Aceptar las <a href="#" target="_blank">condiciones de privacidad</a></label>
+                    <input type="checkbox" id="aceptar-condiciones" name="aceptar-condiciones" required>    
+                </div>
+
+                <button type="reset">Restablecer</button>
+                <button type="submit">Enviar</button>
+            </div>
+
+            <p id="mensaje"></p>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="social-media">
+                <a href="https://facebook.com" target="_blank"><img src="/img/Facebook_logo.png" alt="image de Facebook" width="960" height="960"></a>
+                <a href="https://twitter.com" target="_blank"><img src="/img/twiter-logo.png" alt="image de Twitter" width="512" height="512"></a>
+                <a href="https://instagram.com" target="_blank"><img src="/img/Instagram_logo.png" alt="imagen de Instagram" width="1200" height="1200"></a>
+            </div>
+            
+            <div class="company-info">
+                <p>Mundo Canon S.A.<br>
+                  Calle Falsa 123, Madrid, España<br>
+                  Tel: +34 900 123 456
+                </p>
+            </div>
+            
+            <div class="legal">
+                <a href="aviso-legal.html">Aviso Legal</a>
+            </div>
+        </div>
+    </footer>
+
+    <script  src="/JS/presupuesto.js"></script>
+</body>
+</html>
