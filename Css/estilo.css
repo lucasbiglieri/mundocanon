@@ -131,7 +131,7 @@ nav ul li a {
 }
 
 #noticias-container{
-    background-image: url(/img/noticias.webp);
+    background-image: url(img/noticias.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
