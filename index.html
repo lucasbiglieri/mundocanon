@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MundoCanon: cámaras Canon, objetivos RF, formación y noticias sobre fotografía profesional.">
+    <title>MundoCanon</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Css/estilo.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="imagen-logo" src="img/MundoCanon.png" alt="Logo de MundoCanon" loading="lazy" width="500" height="500">
+            <h1>MundoCanon</h1>
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html" class="inicio">Inicio</a></li>
+                <li><a href="views/galeria.html">Galería</a></li>
+                <li><a href="views/presupuesto.html">Presupuesto</a></li>
+                <li><a href="views/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección 1 -->
+        <section class="seccion1" aria-label="Banner principal">
+            <img class="banner" src="img/banner.jpeg" alt="Mujer usando una cámara fotográfica" loading="lazy" width="3000" height="2000">
+        </section>
+
+        <!-- Sección 2 -->
+        <section id="seccion2" aria-label="Categorías destacadas">
+            <a href="views/galeria.html" class="enlace-seccion2" target="_blank">
+                <div class="contenedor-seccion2">
+                    <img class="img-seccion2" src="img/objetivos.webp" alt="Objetivos Canon RF y RF-S" loading="lazy" width="408" height="230">
+                    <h2>Objetivos RF y RF-S</h2>
+                    <p>Mayor calidad y velocidad con un rendimiento optimizado para la cámara EOS R. Control intuitivo y resultados profesionales.</p>
+                </div>
+            </a>
+            <a href="views/galeria.html" class="enlace-seccion2" target="_blank">
+                <div class="contenedor-seccion2">
+                    <img class="img-seccion2" src="img/camara.webp" alt="Cámara mirrorless siendo utilizada al aire libre" loading="lazy" width="408" height="230">
+                    <h2>Cámaras Mirrorless</h2>
+                    <p>Compactas y potentes. Reúne la mejor tecnología de Canon en cuerpos ligeros con objetivos intercambiables.</p>
+                </div>
+            </a>
+            <a href="https://www.blogdelfotografo.com/aprender-fotografia/" class="enlace-seccion2" target="_blank">
+                <div class="contenedor-seccion2">
+                    <img class="img-seccion2" src="img/aprende.fotografia.jpg" alt="Personas aprendiendo fotografía" loading="lazy" width="734" height="489">
+                    <h2>Aprende Fotografía</h2>
+                    <p>Guía completa para iniciarte en la fotografía desde casa de forma autodidacta. Ahorra tiempo y evita frustraciones.</p>
+                </div>
+            </a>
+        </section>
+
+        <!-- Sección 3 -->
+        <section id="seccion3" aria-label="Contenido profesional y educativo">
+            <div>
+                <img class="imagen-seccion3" src="img/Fotografia.webp" alt="Chica caminando sobre agua con paisaje de fondo" loading="lazy" width="560" height="315">
+            </div>
+            <div class="informacion-seccion3">
+                <h3>Pro</h3>
+                <h4>Fotografía y vídeo profesional</h4>
+                <p>Noticias, historias, kits y consejos de los principales fotógrafos y cineastas del mundo.</p>
+                <a class="blue enlaces-seccion3" href="https://www.canon.es/pro/" target="_blank">Fotografía y vídeo profesional ></a>
+                <a class="blue enlaces-seccion3" href="https://www.canon.es/pro/news/" target="_blank">Noticias y eventos ></a>
+                <a class="blue enlaces-seccion3" href="https://www.canon.es/pro/stories/" target="_blank">Historias ></a>
+            </div>
+            <div class="imagen-video">
+                <img class="imagen-seccion3" src="img/Video.webp" alt="Cámara mostrando una imagen en su pantalla" loading="lazy" width="560" height="315">
+            </div>
+            <div class="educacion informacion-seccion3">
+                <h3>Educación</h3>
+                <h4>Infobank</h4>
+                <p>Aprende con noticias, historias y recursos educativos para mejorar tus habilidades como fotógrafo o cineasta.</p>
+                <a class="blue enlaces-seccion3" href="https://www.canon.es/pro/infobank/" target="_blank">Más información ></a>
+            </div>
+        </section>
+
+        <!-- Sección Noticias -->
+        <section id="noticias" aria-label="Noticias recientes">
+            <h2>Últimas Noticias</h2>
+            <div id="noticias-container">
+                <!-- Noticias se cargarán aquí por JS -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="social-media">
+                <a href="https://facebook.com" target="_blank"><img src="img/Facebook_logo.png" alt="image de Facebook" width="960" height="960"></a>
+                <a href="https://twitter.com" target="_blank"><img src="img/twiter-logo.png" alt="image de Twitter" width="512" height="512"></a>
+                <a href="https://instagram.com" target="_blank"><img src="img/Instagram_logo.png" alt="imagen de Instagram" width="1200" height="1200"></a>
+            </div>
+            <div class="company-info">
+                <p>Mundo Canon S.A.<br>
+                    Calle Falsa 123, Madrid, España<br>
+                    Tel: +34 900 123 456</p>
+            </div>
+            <div class="legal">
+                <a href="aviso-legal.html">Aviso Legal</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JS/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
